@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto GTA - seleçao de personagem</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href= "src/css/reset.css">
+    <link rel="stylesheet" href= "src/css/estilos.css">
+    <link rel="stylesheet" href= "src/css/responsivo.css">
+</head>
+
+<body>
+<header class="cabecalho">
+    <img class = "logo" src="./src/imagens/logo.png" alt="Logo gta" >
+</header>
+
+<main class ="selecao-de-personagens">
+    <section class="personagens">
+        <h1 class="titulo">Selecione um personagem</h1>
+        <ul class="lista-de-personagens">
+            <li class="personagem selecionado" id="carl" data-name =" Carl Jonhson" data-description = "Leal,justiçeiro, habilidoso em varias areas do crime Carl Jonhson se tornou um criminoso renomado por precisão">
+                <img src="./src/imagens/card-carl.jpg" 
+                alt="personagem-carl">
+            </li>
+            <li class="personagem" id="big-smoke" data-name="Big Smoke" data-description = "Traiçoeiro, cruel, uma mente traiçoeira no crime Big smoke é um criminos perverso por puro poder">
+                <img src="./src/imagens/card-smoke.jpg" 
+                alt="personagem-big-smoke">
+            </li>
+            <li class="personagem" id="ryder" data-name ="Ryder" data-description = "volátil e egoísta, Ryder tem experiencia com negócios ilícitos sua mente e sempre  " >
+                <img src="./src/imagens/card-ryder.jpg" 
+                alt="personagem-ryder">
+            </li>
+
+            </li>
+            <li class="personagem" id="sweet" data-name ="Sweet" data-description = "Sendo rigoroso em suas decisões Sweet é um líder no mundo do crime">
+                <img src="./src/imagens/card-sweet.jpg" 
+                alt="personagem-sweet">
+            </li>
+
+
+            <li class="personagem" id="cesar" data-name ="Cesar" data-description = "Mexicano, amante de corridas e muito habilidoso no mundo crime Cesar é um bandido cruel, porém justo"  >
+                <img src="./src/imagens/card-cesar.jpg" 
+                alt="personagem-cesar">
+            </li>
+            <li class="personagem" id="og-loc" data-name ="Og Loc" data-description = "Og sendo a abreviação de original gangster, Og LOc é um ambicioso aspirante a rapper">
+                <img src="./src/imagens/card-loc.jpg" 
+                alt="personagem-og-loc">
+            </li>
+            
+        </ul>
+    </section>
+        <div class="audio-container">
+            <audio id="meu-audio" autoplay>
+              <source src="./src/imagens/som-selecao.mp3" type="audio/mp3">
+              Seu navegador não suporta a tag de áudio.
+            </audio>
+          </div>
+   
+    
+    <section class="personagem-selecionado">
+        
+                <img class="personagem-grande" src="./src/imagens/card-carl.png" 
+                alt="personagem-selecionado">
+                <div class="informacoes-personagem">
+                    <h2 class=" nome-personagem" id = "nome-personagem">Carl Jonhson</h2>
+                    <p class ="descricao-personagem" id = "descricao-personagem">Leal,justiçeiro, habilidoso em varias areas do crime Carl Jonhson se tornou um criminoso renomado por precisão</p>
+                </div>
+        </ul>
+    </section>
+</main>
+<script src="./src/js/index.js"></script>
+</body>
+</html>
