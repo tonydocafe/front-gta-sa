@@ -4,9 +4,6 @@ Este é um código que desenvolve uma página para a seleção de personagens. N
 Para visualizar o codigo : https://tonydocafe.github.io/front-gta-sa/
 
 
-
-
-
 #### foram utlizados :
 
 - hmtl
